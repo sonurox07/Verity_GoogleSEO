@@ -62,9 +62,6 @@
       <Version>94.0.4606.6100</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="Readme.txt" />
-  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
